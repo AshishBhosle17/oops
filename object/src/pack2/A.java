@@ -1,6 +1,6 @@
 package pack2;
 
-public class A extends access_specifiers.Emp {
+public class A extends acess_specifiers.Emp {
 	
 	public static void main(String[] args) {
 		A a = new A();
