@@ -43,8 +43,7 @@ public class Main {
 		
 		rbi=new HDFC();
 		System.out.println(rbi.getRateOfInterest());
-		
-		
+			
 		rbi=new ICICI();
 		System.out.println(rbi.getRateOfInterest());
 	}
