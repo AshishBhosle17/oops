@@ -17,8 +17,20 @@ public class Main {
 		emps.add(emp4);
 		
 		OpsImpliment imp=new OpsImpliment();
-		imp.insertData(emps);
+		// CRUD Ops
+		imp.insertData(emps); // Data Inserted
 		imp.showData();
+		
+		System.out.println("--------------------");
+		imp.updateData(2, "Perry"); // updating Jerry to Perry
+		imp.showData();
+		
+		System.out.println("--------------------");
+		imp.deleteData(2); // deleting Perry
+		imp.showData();
+		
+		System.out.println("--------------------");
+		imp.searchData(1); // Print id=1, Tom 
 		
 		
 	
