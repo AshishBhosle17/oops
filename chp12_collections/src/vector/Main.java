@@ -12,6 +12,28 @@ public class Main {
 		Emp emp3 = new Emp(3, "Merry", 30000);
 		
 		Vector<Emp> emps = new Vector<Emp>();
+		emps.add(emp);
+		emps.add(emp1);
+		emps.add(emp2);
+		emps.add(emp3);
+		
+		OpsImplement imp = new OpsImplement();
+		// CRUD OPS
+		imp.insertData(emps);
+		imp.showData();
+		System.out.println("-----------------------");
+		
+		imp.updateData(9, "Tom");
+		imp.showData();
+		System.out.println("-----------------------");
+		
+		imp.deleteData(9);
+		imp.showData();
+		System.out.println("-----------------------");
+		
+		imp.searchData(2);
+		
+		
 	}
 
 }
