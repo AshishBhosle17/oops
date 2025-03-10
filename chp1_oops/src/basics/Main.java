@@ -27,8 +27,8 @@ class Emp {
     }
 
     // Main method to test the class
-    public static void main(String[] args) {
-        Emp emp1 = new Emp("John Doe", 102, 50000, "123 Main St, NY");
+public static void main(String[] args) {
+        Emp emp1 = new Emp("Ashish", 102, 50000, "101 complex");
         emp1.displayInfo();
         System.out.println(emp1.toString());
     }
